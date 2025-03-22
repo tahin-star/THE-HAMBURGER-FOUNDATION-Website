@@ -1,9 +1,36 @@
-@media only screen and (max-width: 600px) {
-    body {
-    background-color: lightblue;
-  }
-}
-.navbar-collapse {
-    background-color: #000;
-    padding: 1rem;
+@media (max-width: 768px) {
+    h1, h4 {
+        font-size: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.2rem;
+    }
+
+    .card-text {
+        font-size: 0.9rem;
+    }
+
+    .navbar-collapse {
+        background-color: #212529;
+        padding: 10px;
+    }
+
+    .btn {
+        font-size: 0.9rem;
+        padding: 6px 12px;
+    }
+
+    .dropdown-menu {
+        font-size: 0.9rem;
+    }
+
+    .position-absolute h1, 
+    .position-absolute h4 {
+        font-size: 1.2rem;
+    }
+
+    .position-absolute p {
+        font-size: 0.8rem;
+    }
 }
